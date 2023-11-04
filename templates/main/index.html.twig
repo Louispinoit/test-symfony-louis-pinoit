@@ -17,6 +17,7 @@
     {% for jeu in jeux %}
         <p>{{ jeu.nom }} <a href="{{ path('app_jeu_detail',       {'id': jeu.id}) }}">voir</a></p>
     {% endfor %}
+<a href="{{ path('user_create') }}">Créer un utilisateur</a>
 
 </div>
 {% endblock %}

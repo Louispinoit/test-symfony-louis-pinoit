@@ -10,3 +10,6 @@ index:
   defaults:
     path: /main
     permanent: true
+
+app_logout:
+  path: /logout
