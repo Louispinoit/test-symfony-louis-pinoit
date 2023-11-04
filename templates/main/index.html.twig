@@ -13,5 +13,10 @@
 
     <p>Voici la liste des jeux référencés sur le site :</p>
 
+
+    {% for jeu in jeux %}
+        <p>{{ jeu.nom }} <a href="{{ path('app_jeu_detail',       {'id': jeu.id}) }}">voir</a></p>
+    {% endfor %}
+
 </div>
 {% endblock %}

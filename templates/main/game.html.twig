@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<h1>{{ jeu.nom }}</h1>
+<p>{{ jeu.description }}</p>
+<a href="{{ path('app_main') }}">revenir à la liste</a>
+
+{% endblock %}
